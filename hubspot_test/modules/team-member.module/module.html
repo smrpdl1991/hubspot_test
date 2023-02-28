@@ -1,0 +1,14 @@
+{% for item in module.teams %}
+	{% if item.profile.src %}
+		{% set sizeAttrs = 'width="{{ item.profile.width }}" height="{{ item.profile.height }}"' %}
+		{% if item.profile.size_type == 'auto' %}
+			{% set sizeAttrs = 'width="{{ item.profile.width }}" height="{{ item.profile.height }}" style="max-width: 100%; height: auto;"' %}
+		{% elif item.profile.size_type == 'auto_custom_max' %}
+			{% set sizeAttrs = 'width="{{ item.profile.max_width }}" height="{{ item.profile.max_height }}" style="max-width: 100%; height: auto;"' %}
+		{% endif %}
+		 {% set loadingAttr = item.profile.loading != 'disabled' ? 'loading="{{ item.profile.loading }}"' : '' %}
+		<img src="{{ item.profile.src }}" alt="{{ item.profile.alt }}" {{ loadingAttr }} {{ sizeAttrs }}>
+	{% endif %}
+	{% inline_text field="team_name" value="{{ item.team_name }}" %}
+	{% inline_text field="designation" value="{{ item.designation }}" %}
+{% endfor %}

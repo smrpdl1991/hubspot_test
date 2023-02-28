@@ -1,0 +1,14 @@
+defaultPortal: hubspot_test
+portals:
+  - name: hubspot_test
+    portalId: 8371531
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CILE-bzpMBILAAUAAAAAAEwAQAIYy_r-AyDn1dAFKO7pDDIUI_OEldg_Wfe9YQxHl_hPociga7I6JgAABEEAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAPABAAABEQhRZWMRngsrpbNwKVDARrd7p1aJ_iEoDbmExUgBaAA
+        expiresAt: '2023-02-28T10:43:04.836Z'
+    personalAccessKey: >-
+      CiRlYTE1ZTUxYi1hZDQxLTRlZTctYjMwMC00NDg2NjljMzc2ZjYQy_r-Axjn1dAFKhkABeaRgt1jpKqLU5f0WtqK2fdQelWNIZBhSgNuYTE
+    sandboxAccountType: null
+    parentAccountId: null

@@ -1,0 +1,75 @@
+[ {
+  "id" : "4d1a4054-8095-ac2e-e74d-92c8122d12cf",
+  "name" : "teams",
+  "display_width" : null,
+  "label" : "teams",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "dddfe7fd-d37d-3341-6a25-14197370024c",
+    "name" : "profile",
+    "display_width" : null,
+    "label" : "profile",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://cdn2.hubspot.net/hubfs/8371531/Confident%20business%20man%20standing%20with%20a%20football%20at%20an%20office.jpeg",
+      "alt" : "Confident business man standing with a football at an office",
+      "loading" : "lazy",
+      "width" : 667,
+      "height" : 1000,
+      "max_width" : 667,
+      "max_height" : 1000
+    }
+  }, {
+    "id" : "f9bd13b0-bff9-5c94-3ed6-2c210bb3c924",
+    "name" : "team_name",
+    "display_width" : null,
+    "label" : "team_name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "sameer"
+  }, {
+    "id" : "b738d17f-d337-c9c3-efd5-1e3389c7a0a2",
+    "name" : "designation",
+    "display_width" : null,
+    "label" : "designation",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "profile" : {
+      "size_type" : "auto",
+      "src" : "https://cdn2.hubspot.net/hubfs/8371531/Confident%20business%20man%20standing%20with%20a%20football%20at%20an%20office.jpeg",
+      "alt" : "Confident business man standing with a football at an office",
+      "loading" : "lazy",
+      "width" : 667,
+      "height" : 1000,
+      "max_width" : 667,
+      "max_height" : 1000
+    },
+    "team_name" : "sameer"
+  }
+} ]
